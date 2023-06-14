@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 export default class NavBar extends Component {
   static propTypes = {
-    prop: PropTypes
+    prop: PropTypes.array
   }
 
   render() {
